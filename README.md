@@ -22,3 +22,19 @@ As a Ph.D. student, I want to explore holistic approaches to fundamentally enhan
 
 4. Saha, O., **Mahmud, M.S.** and Fattah, S.A., 2022, December. [DEEPSATTNET: An End-to-End Deep Neural Network with Self-Attention for EEG-Based Emotion Recognition.](https://doi.org/10.1109/WIECON-ECE57977.2022.10150514) In _2022 IEEE International Women in Engineering (WIE) Conference on Electrical and Computer Engineering (WIECON-ECE)_ (pp. 275-279). IEEE.
 
+## Honors and Awards
+
+1. University Merit Scholarship and Dean’s List Award – BUET (_Spring’17 ‑ Spring’22_)
+3. Dr. Saifuddin Ahmed Chowdhury Memorial Scholarship – BUET (_Spring’21 ‑ Spring’22_)
+6. Bronze Award – HRH The Duke of Edinburgh KG KT Founder (_2014_)
+
+## Misc.
+
+1. Vice‑Chairperson – IEEE Signal Processing Society BUET Student Branch (_Spring’21 ‑ Spring’22_)
+2. Assistant Treasurer – IEEE BUET Student Branch (_Spring’20 ‑ Spring’21_)
+3. Vice‑President – Badhan BUET Zone Suhrawardy Hall Unit (_Spring’21 ‑ Spring’22_)
+
+## Contact
+- Email: mdsultanmahmud.eee.buet@gmail.com
+- Email: mqm7099@psu.edu
+- LinkedIn: linkedin.com/in/mdsultanmahmudmahadi/

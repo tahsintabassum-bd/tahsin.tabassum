@@ -8,9 +8,9 @@ As a Ph.D. student, I want to explore holistic approaches to fundamentally enhan
 ## Publications
 ### Journals
 
-1.** Mahmud, M.S.**, Fattah, S.A., Saquib, M. and Saha, O., 2024. [Emotion recognition with reduced channels using CWT based EEG feature representation and a CNN classifier.](https://iopscience.iop.org/article/10.1088/2057-1976/ad31f9/meta) _Biomedical Physics & Engineering Express_, 10(4), p.045003.
+1. **Mahmud, M.S.**, Fattah, S.A., Saquib, M. and Saha, O., 2024. [Emotion recognition with reduced channels using CWT based EEG feature representation and a CNN classifier.](https://iopscience.iop.org/article/10.1088/2057-1976/ad31f9/meta) _Biomedical Physics & Engineering Express_, 10(4), p.045003.
 
-2. Saha, O.,** Mahmud, M.S.**, Fattah, S.A. and Saquib, M., 2022. [Automatic emotion recognition from multi-band EEG data based on a deep learning scheme with effective channel attention.](https://doi.org/10.1109/ACCESS.2022.3224725) _IEEE Access_, 11, pp.2342-2350.
+2. Saha, O., **Mahmud, M.S.**, Fattah, S.A. and Saquib, M., 2022. [Automatic emotion recognition from multi-band EEG data based on a deep learning scheme with effective channel attention.](https://doi.org/10.1109/ACCESS.2022.3224725) _IEEE Access_, 11, pp.2342-2350.
 
 ### Conferences
 

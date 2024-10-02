@@ -1,14 +1,14 @@
 # Hi! I am Sultan!
-I am a Ph.D. student at **The Pennsylvania State University**, working in the [Systems and Network Security (SyNSec)](https://synsec-den.github.io/) research lab led by [Dr. Syed Rafiul Hussain](https://syed-rafiul-hussain.github.io/), which focuses on improving the security and privacy of the design and software implementations of emerging networks and complex systems.  
+I am a Ph.D. student at **The Pennsylvania State University**, currently serving as a Graduate Teaching Student in the Computer Science and Engineering department, and looking for PhD supervisor.
 
-As a graduate researcher, I want to explore holistic approaches to fundamentally enhance the security investigation of a **Wireless Communication Systems** from the ground up, i.e., starting from analyzing designs, evaluating implementations, monitoring the runtime, and building verified/high-assurance defenses. As part of this process, I would like to combine theory and practice by drawing inspiration from formal methods, program analysis, software testing, signal processing, machine learning and cryptography. I would also love to collaborate with researchers in order to improve my skills in multi-disciplinary domains to contribute to the field of science.
+As a graduate researcher, I would like to utilize and advance my prior knowledge of signal processing techniques and applied machine learning algorithms. I would also love to collaborate with researchers in order to improve my skills in multi-disciplinary domains to contribute to the field of science.
 
 ## Education
 - Ph.D., Computer Science & Engineering | The Pennsylvania State University (_Spring'24 - Present_)								       				        		
 - B.Sc., Electrical & Electronic Engineering | Bangladesh University of Engineering and Technology (_Spring’17 ‑ Spring’22_)
 
 ## Work Experience
-**Research Assistant @ Systems and Network Security Research Lab, Penn State (_Spring'24 - Present_)**
+**Research Assistant @ Systems and Network Security Research Lab, Penn State (_Jan'24 - Jul'24_)**
 - Exploring security vulnerabilities in the 3GPP cellular systems, particularly focusing on lower layers of the cellular radio stack, such as the PHY and MAC
 
 **Lecturer @ East Delta University, Chattogram, Bangladesh (_Fall'22 - Fall'23_)**

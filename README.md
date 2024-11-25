@@ -1,10 +1,9 @@
 # Hi! I am Sultan!
-I am a Ph.D. student at **The Pennsylvania State University**, currently serving as a Graduate Teaching Student in the Computer Science and Engineering department, and looking for PhD supervisor.
+I am a Ph.D. student at **The Pennsylvania State University**, currently working as a Research Assistant in the Center for Advanced Electronics Through Machine Learning.
 
 As a graduate researcher, I would like to utilize and advance my prior knowledge of signal processing techniques and applied machine learning algorithms. I would also love to collaborate with researchers in order to improve my skills in multi-disciplinary domains to contribute to the field of science.
 
-## Education
-- Ph.D., Computer Science & Engineering | The Pennsylvania State University (_Spring'24 - Present_)								       				        		
+## Education							   		
 - B.Sc., Electrical & Electronic Engineering | Bangladesh University of Engineering and Technology (_Spring’17 ‑ Spring’22_)
 
 ## Work Experience

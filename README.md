@@ -7,8 +7,16 @@ As a graduate researcher, I would like to utilize and advance my prior knowledge
 - B.Sc., Electrical & Electronic Engineering | Bangladesh University of Engineering and Technology (_Spring’17 ‑ Spring’22_)
 
 ## Work Experience
+**Research Assistant @ The Center for Advanced Electronics Through Machine Learning (_Jan'25 - present_)**
+- TBD
+
+**Teaching Assistant for CMPSC 200: Programming for Engineers with MATLAB (_Aug'24 - Dec'24_)**
+- Taking recitations
+- Conducting Assessments
+- Grading
+
 **Research Assistant @ Systems and Network Security Research Lab, Penn State (_Jan'24 - Jul'24_)**
-- Exploring security vulnerabilities in the 3GPP cellular systems, particularly focusing on lower layers of the cellular radio stack, such as the PHY and MAC
+- Finding security vulnerabilities in the 3GPP cellular systems, particularly for LTE and 5G, focusing on lower layers of the cellular radio stack
 
 **Lecturer @ East Delta University, Chattogram, Bangladesh (_Fall'22 - Fall'23_)**
 - Offered Courses: Digital Signal Processing, Signal & Systems, Electrical & Electronic Circuits, Linear Algebra, Complex Variables & Vector Analysis

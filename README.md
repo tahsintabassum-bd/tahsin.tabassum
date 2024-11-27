@@ -22,6 +22,7 @@ As a graduate researcher, I would like to utilize and advance my prior knowledge
 - Offered Courses: Digital Signal Processing, Signal & Systems, Electrical & Electronic Circuits, Linear Algebra, Complex Variables & Vector Analysis
 
 ## Publications
+
 ### Journals
 
 1. **Mahmud, M.S.**, Fattah, S.A., Saquib, M. and Saha, O., 2024. [Emotion recognition with reduced channels using CWT based EEG feature representation and a CNN classifier.](https://iopscience.iop.org/article/10.1088/2057-1976/ad31f9/meta) _Biomedical Physics & Engineering Express_, 10(4), p.045003.
@@ -47,10 +48,12 @@ As a graduate researcher, I would like to utilize and advance my prior knowledge
 4. Vice‑President – Badhan BUET Zone Suhrawardy Hall Unit (_Spring’20 ‑ Spring’22_)
 
 ## Contact
+
 - Email: mdsultanmahmud.eee.buet@gmail.com
 - Email: mqm7099@psu.edu
 
 ## Other Media
+
 - [LinkedIn](https://www.linkedin.com/in/mdsultanmahmudmahadi/)
 - [Google Scholar](https://scholar.google.com/citations?user=2lyqtVkAAAAJ&hl=en&authuser=1)
 - [ResearchGate](https://www.researchgate.net/profile/Md-Sultan-Mahmud-4)

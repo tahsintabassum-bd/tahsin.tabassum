@@ -46,22 +46,23 @@ main {
 }
 
 .left-section {
-    text-align: center;
-    max-width: 300px;
+    max-width: 400px; /* Increase maximum width for better proportion */
+    text-align: center; /* Center-align the content */
+    margin-right: 20px; /* Add space between left and right sections */
 }
 
-.left-section h1 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+.left-section h1.name {
+    font-size: 2em; /* Increase font size for the name */
+    margin-bottom: 15px; /* Add space between the name and the image */
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 2px solid #333;
+    width: 200px; /* Increase width for larger image */
+    height: 200px; /* Keep the image proportional */
+    border-radius: 50%; /* Keep the circular shape */
+    border: 1px solid #333; /* Optional: Adjust border thickness */
     object-fit: cover;
-    margin-bottom: 10px;
+    margin-bottom: 15px; /* Add space below the image */
 }
 
 .right-section {

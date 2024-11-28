@@ -57,8 +57,8 @@ main {
 }
 
 .profile-pic {
-    width: 480px; /* Increase width for larger image */
-    height: 480px; /* Keep the image proportional */
+    width: 300px; /* Increase width for larger image */
+    height: 300px; /* Keep the image proportional */
     border-radius: 50%; /* Keep the circular shape */
     border: 0.5px solid #333; /* Optional: Adjust border thickness */
     object-fit: cover;
@@ -66,8 +66,9 @@ main {
 }
 
 .right-section {
-    max-width: 600px;
+    max-width: 500px;
     text-align: justify;
+    margin-right: 30px;
 }
 
 .right-section h1 {

@@ -52,7 +52,7 @@ main {
 }
 
 .left-section h1.name {
-    font-size: 5em; /* Increase font size for the name */
+    font-size: 3em; /* Increase font size for the name */
     margin-bottom: 30px; /* Add space between the name and the image */
 }
 
@@ -67,10 +67,11 @@ main {
 
 .right-section {
     max-width: 600px;
+    text-align: justify;
 }
 
 .right-section h1 {
-    font-size: 1.8em;
+    font-size: 1.2em;
     color: #333;
 }
 

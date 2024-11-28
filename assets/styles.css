@@ -78,6 +78,18 @@ main {
     color: #555;
 }
 
+/* Link Styles */
+a {
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: darkcyan;
+    text-decoration: underline;
+}
+
 footer {
     text-align: center;
     padding: 10px 0;

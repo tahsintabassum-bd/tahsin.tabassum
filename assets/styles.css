@@ -52,13 +52,13 @@ main {
 }
 
 .left-section h1.name {
-    font-size: 10em; /* Increase font size for the name */
+    font-size: 5em; /* Increase font size for the name */
     margin-bottom: 30px; /* Add space between the name and the image */
 }
 
 .profile-pic {
-    width: 500px; /* Increase width for larger image */
-    height: 500px; /* Keep the image proportional */
+    width: 1000px; /* Increase width for larger image */
+    height: 1000px; /* Keep the image proportional */
     border-radius: 50%; /* Keep the circular shape */
     border: 0.5px solid #333; /* Optional: Adjust border thickness */
     object-fit: cover;

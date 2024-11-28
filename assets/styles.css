@@ -45,3 +45,22 @@ footer {
     color: white;
 }
 
+/* Profile Section */
+.profile-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 150px; /* Adjusted size */
+    height: 150px; /* Maintain proportional size */
+    border-radius: 50%; /* Circular shape */
+    border: 2px solid #333; /* Border around the image */
+    object-fit: cover; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.profile-section h1 {
+    font-size: 1.8em;
+    color: #333;
+}

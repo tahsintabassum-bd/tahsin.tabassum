@@ -200,6 +200,63 @@ main {
     text-decoration: underline;
 }
 
+/* Education Section */
+.education-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.education-section h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.education-entry {
+    margin-bottom: 30px;
+}
+
+.education-entry h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.education-entry p {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #555;
+}
+
+.education-entry ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.education-entry ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 0.95em;
+    color: #555;
+}
+
+.education-entry ul li ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.education-entry ul li ul li {
+    font-size: 0.9em;
+    color: #555;
+}
+
+
 /* Link Styles */
 a {
     color: teal;

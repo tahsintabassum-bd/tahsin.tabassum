@@ -322,62 +322,6 @@ main {
     }
 }
 
-/* Timeline Style for Education */
-.timeline {
-    display: flex;
-    align-items: center;
-    background-color: #28a745; /* Green background */
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    padding: 5px 10px;
-    margin-right: 15px;
-    flex-shrink: 0;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.timeline-label {
-    font-size: 1em;
-    margin-right: 10px; /* Space between label and year */
-}
-
-.timeline-year {
-    font-size: 0.9em;
-    background-color: rgba(255, 255, 255, 0.2); /* Slightly lighter background */
-    padding: 2px 5px;
-    border-radius: 3px;
-}
-
-.entry {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
-}
-
-.entry .details {
-    font-size: 0.9em;
-    color: #555;
-}
-
-.entry .details p {
-    margin: 2px 0;
-}
-
-.entry .details strong {
-    color: #333;
-}
-
-/* Section Header */
-.education-section h1 {
-    font-size: 1.5em;
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-
-
 /* Link Styles */
 a {
     color: teal;

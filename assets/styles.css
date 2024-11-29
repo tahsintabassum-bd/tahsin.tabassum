@@ -116,8 +116,8 @@ main {
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-left: 300px; /* Add space between left sections */
-    margin-right: 300px; /* Add space between right sections */
+    margin-left: 100px; /* Add space between left sections */
+    margin-right: 100px; /* Add space between right sections */
 }
 
 .recent-news h2 {

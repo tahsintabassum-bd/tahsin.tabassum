@@ -78,6 +78,41 @@ main {
     color: #555;
 }
 
+/* Recent News Section */
+.recent-news {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recent-news h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.news-list {
+    max-height: 200px; /* Limit the height for scrolling */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.news-list p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin: 0 0 10px;
+    color: #555;
+}
+
 /* Link Styles */
 a {
     color: teal;

@@ -61,6 +61,28 @@ main {
     margin-bottom: 15px; /* Add space below the image */
 }
 
+/* Social Media Links */
+.social-links {
+    margin-top: 15px; /* Space between the headshot and links */
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between icons */
+}
+
+.social-links a {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.social-links .icon {
+    width: 40px; /* Icon size */
+    height: 40px;
+}
+
+.social-links a:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+}
+
 .right-section {
     max-width: 500px;
     text-align: justify;

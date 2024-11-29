@@ -116,8 +116,8 @@ main {
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-left: 50px; /* Add space between left sections */
-    margin-right: 50px; /* Add space between right sections */
+    margin-left: 30px; /* Add space between left sections */
+    margin-right: 30px; /* Add space between right sections */
 }
 
 .recent-news h2 {
@@ -208,8 +208,8 @@ main {
     gap: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 50px; /* Add space between left sections */
-    margin-right: 50px; /* Add space between right sections */
+    margin-left: 30px; /* Add space between left sections */
+    margin-right: 30px; /* Add space between right sections */
 }
 
 .experience-section, .education-section {

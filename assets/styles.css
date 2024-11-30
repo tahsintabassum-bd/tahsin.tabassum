@@ -409,6 +409,77 @@ main {
     cursor: pointer;
 }
 
+/* Journal List */
+.journal-list {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.journal {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.journal-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.journal-header .tag {
+    background-color: #9c27b0;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.journal h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.journal p.authors {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.journal p.year {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.abstract-toggle {
+    background-color: #9c27b0;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.abstract-toggle:hover {
+    background-color: #7b1fa2;
+}
+
+.abstract-content {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9em;
+    color: #333;
+}
+
 /* Link Styles */
 a {
     color: teal;

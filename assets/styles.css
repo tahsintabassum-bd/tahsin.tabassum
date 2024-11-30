@@ -407,10 +407,7 @@ main {
 
 /* Active Tab Dropdown Styling */
 .dropdown .dropbtn.active {
-    background-color: white; /* White background for the dropdown */
-    color: black;
-    border-radius: 5px;
-    padding: 5px 10px;
+    background-color: #555; /* White background for the dropdown */
 }
 
 /* Dropdown Hover Effect for Desktop */

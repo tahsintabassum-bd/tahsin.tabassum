@@ -140,6 +140,7 @@ main {
     font-size: 0.9em;
     line-height: 1.6;
     margin: 0 0 10px;
+    text-align: justify;
     color: #555;
 }
 
@@ -186,6 +187,7 @@ main {
 .award-details p {
     font-size: 0.9em;
     color: #555;
+    text-align: justify;
     margin: 5px 0 0;
 }
 
@@ -253,6 +255,7 @@ main {
 
 .entry .details p {
     margin: 2px 0;
+    text-align: justify;
 }
 
 .entry .details strong {

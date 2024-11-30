@@ -382,37 +382,35 @@ main {
 }
 
 
-/* Dropdown Menu Styles */
-.navbar li ul {
+/* Dropdown Content */
+.dropdown-content {
     display: none; /* Hidden by default */
     position: absolute;
-    top: 100%; /* Position below the parent */
-    left: 0;
-    background-color: #333;
-    list-style: none;
-    padding: 10px 0;
-    border-radius: 5px;
-    min-width: 150px; /* Set a minimum width for the dropdown */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
-.navbar li ul li {
-    padding: 0;
-    margin: 0;
-}
-
-.navbar li ul li a {
-    padding: 10px 15px;
-    color: white;
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
     text-decoration: none;
+    display: block;
 }
 
-.navbar li ul li a:hover {
-    background-color: #555;
+.dropdown-content a:hover {
+    background-color: #ddd;
 }
 
-/* Show Dropdown on Hover */
-.navbar li:hover ul {
-    display: block; /* Show the dropdown when hovering */
+/* Dropdown Hover Effect */
+.dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown on hover */
+}
+
+.dropbtn {
+    color: white;
+    cursor: pointer;
 }
 
 /* Optional: For Clickable Dropdowns (Use with JavaScript) */

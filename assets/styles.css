@@ -382,74 +382,43 @@ main {
 }
 
 
-/* Dropdown Styles */
+/* Dropdown Menu Styles */
 .navbar li ul {
     display: none; /* Hidden by default */
     position: absolute;
-    background-color: #333;
-    padding: 10px;
-    list-style: none;
-    border-radius: 5px;
-    margin: 0;
     top: 100%; /* Position below the parent */
     left: 0;
-}
-
-.navbar li:hover ul {
-    display: block; /* Show on hover */
+    background-color: #333;
+    list-style: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    min-width: 150px; /* Set a minimum width for the dropdown */
 }
 
 .navbar li ul li {
-    margin: 5px 0;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar li ul li a {
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li ul li a:hover {
+    background-color: #555;
+}
+
+/* Show Dropdown on Hover */
+.navbar li:hover ul {
+    display: block; /* Show the dropdown when hovering */
+}
+
+/* Optional: For Clickable Dropdowns (Use with JavaScript) */
+.navbar li ul.show {
     display: block;
-    padding: 5px 10px;
-    white-space: nowrap;
 }
-
-/* Mobile View Styles */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start; /* Align items on the left */
-        padding: 10px;
-        background-color: #333;
-    }
-
-    .navbar li {
-        margin: 10px 0;
-        width: 100%; /* Full width for mobile */
-    }
-
-    .navbar li ul {
-        position: static; /* Remove absolute positioning for mobile */
-        margin-left: 20px; /* Indent dropdown items */
-    }
-
-    .navbar li:hover ul {
-        display: none; /* Disable hover behavior on mobile */
-    }
-
-    .navbar .dropdown-toggle {
-        display: block; /* Show dropdown toggle button */
-        cursor: pointer;
-        background-color: #555;
-        padding: 5px 10px;
-        color: white;
-        border-radius: 5px;
-    }
-
-    .navbar .dropdown-toggle:hover {
-        background-color: #777;
-    }
-
-    .navbar li ul.show {
-        display: block; /* Allow toggling visibility */
-    }
-}
-
 
 /* Journal List */
 .journal-list {

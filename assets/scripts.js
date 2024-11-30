@@ -9,30 +9,30 @@ document.querySelectorAll('.abstract-toggle').forEach(button => {
 });
 
 // Add event listener to all dropdown buttons
-document.querySelectorAll('.dropdown .dropbtn').forEach((button) => {
+document.querySelectorAll('.dropbtn').forEach((button) => {
     button.addEventListener('click', (event) => {
         event.preventDefault(); // Prevent default anchor behavior
+
+        // Get the dropdown content
         const dropdownContent = button.nextElementSibling;
 
         // Toggle the 'show' class on the dropdown content
-        if (dropdownContent.classList.contains('show')) {
-            dropdownContent.classList.remove('show');
-        } else {
-            // Close all other open dropdowns
-            document.querySelectorAll('.dropdown-content.show').forEach((openDropdown) => {
-                openDropdown.classList.remove('show');
-            });
-            dropdownContent.classList.add('show');
-        }
+        dropdownContent.classList.toggle('show');
+
+        // Close other open dropdowns
+        document.querySelectorAll('.dropdown-content').forEach((content) => {
+            if (content !== dropdownContent) {
+                content.classList.remove('show');
+            }
+        });
     });
 });
 
 // Close dropdowns if clicking outside
 window.addEventListener('click', (event) => {
     if (!event.target.matches('.dropbtn')) {
-        document.querySelectorAll('.dropdown-content.show').forEach((openDropdown) => {
-            openDropdown.classList.remove('show');
+        document.querySelectorAll('.dropdown-content').forEach((content) => {
+            content.classList.remove('show');
         });
     }
 });
-

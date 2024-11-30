@@ -582,6 +582,30 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.cv-container h1 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.open-browser-link {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 1em;
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.open-browser-link:hover {
+    text-decoration: underline;
+}
+
+.pdf-viewer iframe {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
 /* Link Styles */
 a {

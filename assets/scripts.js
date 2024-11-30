@@ -7,3 +7,11 @@ document.querySelectorAll('.abstract-toggle').forEach(button => {
         button.textContent = isHidden ? 'Hide Abstract' : 'View Abstract';
     });
 });
+
+document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
+    toggle.addEventListener('click', () => {
+        const dropdown = toggle.nextElementSibling;
+        dropdown.classList.toggle('show');
+    });
+});
+

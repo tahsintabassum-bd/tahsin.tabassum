@@ -479,6 +479,19 @@ main {
     color: #777;
 }
 
+/* Award Badge */
+.award-badge {
+    background-color: #7c4dff;
+    color: white;
+    padding: 5px 15px;
+    font-size: 0.85em;
+    font-weight: bold;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+}
+
 .abstract-toggle {
     background-color: #9c27b0;
     color: white;

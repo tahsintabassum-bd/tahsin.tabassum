@@ -327,6 +327,47 @@ main {
     }
 }
 
+/* Mobile View Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start; /* Align items on the left */
+        padding: 10px;
+        background-color: #333;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+        width: 100%; /* Full width for mobile */
+    }
+
+    .navbar li ul {
+        position: static; /* Remove absolute positioning for mobile */
+        margin-left: 20px; /* Indent dropdown items */
+    }
+
+    .navbar li:hover ul {
+        display: none; /* Disable hover behavior on mobile */
+    }
+
+    .navbar .dropdown-toggle {
+        display: block; /* Show dropdown toggle button */
+        cursor: pointer;
+        background-color: #555;
+        padding: 5px 10px;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .navbar .dropdown-toggle:hover {
+        background-color: #777;
+    }
+
+    .navbar li ul.show {
+        display: block; /* Allow toggling visibility */
+    }
+}
+
 /* Timeline Style for Education */
 .timeline {
     display: flex;

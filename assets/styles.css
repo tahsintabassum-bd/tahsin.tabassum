@@ -30,7 +30,11 @@ header {
 }
 
 .navbar a:hover, .navbar a.active {
-    background-color: #555;
+    /* background-color: #555; */
+    background-color: white; /* White background for the dropdown */
+    color: black;
+    border-radius: 3px;
+    padding: 3px 8px;
 }
 
 main {
@@ -407,7 +411,10 @@ main {
 
 /* Active Tab Dropdown Styling */
 .dropdown .dropbtn.active {
-    background-color: #555; /* White background for the dropdown */
+    background-color: white; /* White background for the dropdown */
+    color: black;
+    border-radius: 3px;
+    padding: 3px 8px;
 }
 
 /* Dropdown Hover Effect for Desktop */

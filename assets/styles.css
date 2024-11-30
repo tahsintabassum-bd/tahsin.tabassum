@@ -381,7 +381,6 @@ main {
     margin-bottom: 20px;
 }
 
-
 /* Dropdown Content */
 .dropdown-content {
     display: none; /* Hidden by default */
@@ -403,15 +402,23 @@ main {
     background-color: #ddd;
 }
 
-/* Dropdown Hover Effect */
+/* Dropdown Hover Effect for Desktop */
 .dropdown:hover .dropdown-content {
     display: block; /* Show dropdown on hover */
 }
 
+/* Dropdown Click Toggle for Mobile */
+.dropdown-content.show {
+    display: block;
+}
+
+/* Optional: Styling for the dropdown button */
 .dropbtn {
     color: white;
     cursor: pointer;
 }
+
+
 
 /* Journal List */
 .journal-list {

@@ -413,11 +413,6 @@ main {
     cursor: pointer;
 }
 
-/* Optional: For Clickable Dropdowns (Use with JavaScript) */
-.navbar li ul.show {
-    display: block;
-}
-
 /* Journal List */
 .journal-list {
     max-width: 800px;

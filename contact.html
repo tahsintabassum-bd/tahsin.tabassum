@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="stylesheet" href="assets/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -25,9 +26,29 @@
     </header>
 
     <main>
-        <h1>Contact Me</h1>
-        <p>Email: mdsultanmahmud.eee.buet@gmail.com</p>
-        <p>Email: mqm7099@psu.edu</p>
+        <section class="contact-section">
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h2>Contact Me</h2>
+                <p><i class="fas fa-map-marker-alt"></i> Department of Electrical Engineering, The Pennsylvania State University</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:mdsultanmahmud.eee.buet@gmail.com">mdsultanmahmud.eee.buet@gmail.com</a></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:mqm7099@psu.edu">mqm7099@psu.edu</a></p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+11234567890">(123) 456-7890</a></p>
+                <p><i class="fab fa-twitter"></i> <a href="https://twitter.com/yourtwitter" target="_blank">Twitter</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a></p>
+            </div>
+
+            <!-- Embedded Google Map -->
+            <iframe
+                class="contact-map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.5132199929447!2d-77.86913548459156!3d40.79685977932006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89cea98a37e40dbb%3A0xc5e7359c6d064b2a!2sPenn%20State%20Department%20of%20Computer%20Science%20and%20Engineering!5e0!3m2!1sen!2sus!4v1698496556509!5m2!1sen!2sus"
+                width="600"
+                height="400"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
     </main>
 
     <footer>
@@ -37,4 +58,3 @@
     <script src="assets/scripts.js"></script>
 </body>
 </html>
-

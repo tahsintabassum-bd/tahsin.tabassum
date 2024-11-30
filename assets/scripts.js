@@ -15,3 +15,15 @@ document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
     });
 });
 
+document.querySelectorAll('.navbar li a').forEach(link => {
+    link.addEventListener('click', event => {
+        const dropdown = link.nextElementSibling;
+
+        if (dropdown && dropdown.tagName === 'UL') {
+            event.preventDefault(); // Prevent default link behavior
+            dropdown.classList.toggle('show');
+        }
+    });
+});
+
+

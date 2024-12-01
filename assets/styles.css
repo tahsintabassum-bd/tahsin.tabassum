@@ -61,7 +61,7 @@ main {
     border-radius: 50%; /* Keep the circular shape */
     border: 0.5px solid #333; /* Optional: Adjust border thickness */
     object-fit: cover;
-    margin-top: 20px; /* Add space above the image */
+    margin-top: 15px; /* Add space above the image */
     margin-bottom: 15px; /* Add space below the image */
 }
 

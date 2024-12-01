@@ -4,7 +4,7 @@ document.querySelectorAll('.abstract-toggle').forEach(button => {
         const abstractContent = button.nextElementSibling;
         const isHidden = abstractContent.style.display === 'none' || abstractContent.style.display === '';
         abstractContent.style.display = isHidden ? 'block' : 'none';
-        button.textContent = isHidden ? 'Hide Abstract' : 'View Abstract';
+        button.textContent = isHidden ? 'Hide' : 'View Abstract';
     });
 });
 

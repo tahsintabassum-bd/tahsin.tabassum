@@ -530,7 +530,7 @@ main {
 }
 
 .toggle-poster {
-    background-color: purple;
+    background-color: #9c27b0;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -541,7 +541,7 @@ main {
 }
 
 .toggle-poster:hover {
-    background-color: darkviolet;
+    background-color: #7b1fa2;
 }
 
 .poster-content {

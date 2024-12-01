@@ -36,3 +36,20 @@ window.addEventListener('click', (event) => {
         });
     }
 });
+
+// Add event listener to all "View Poster" buttons
+document.querySelectorAll('.toggle-poster').forEach(button => {
+    button.addEventListener('click', () => {
+        const posterContent = button.nextElementSibling;
+
+        // Toggle the display of the poster content
+        if (posterContent.style.display === 'none' || !posterContent.style.display) {
+            posterContent.style.display = 'block';
+            button.textContent = 'Hide Poster';
+        } else {
+            posterContent.style.display = 'none';
+            button.textContent = 'View Poster';
+        }
+    });
+});
+

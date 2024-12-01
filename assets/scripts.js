@@ -45,10 +45,10 @@ document.querySelectorAll('.toggle-poster').forEach(button => {
         // Toggle the display of the poster content
         if (posterContent.style.display === 'none' || !posterContent.style.display) {
             posterContent.style.display = 'block';
-            button.textContent = 'Hide Poster';
+            button.textContent = 'Hide';
         } else {
             posterContent.style.display = 'none';
-            button.textContent = 'View Poster';
+            button.textContent = 'View';
         }
     });
 });

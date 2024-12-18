@@ -53,3 +53,33 @@ document.querySelectorAll('.toggle-poster').forEach(button => {
     });
 });
 
+
+document.addEventListener("DOMContentLoaded", function () {
+    const carousels = document.querySelectorAll(".carousel-container");
+
+    carousels.forEach((carousel) => {
+        const slide = carousel.querySelector(".carousel-slide");
+        const prevButton = carousel.querySelector(".carousel-prev");
+        const nextButton = carousel.querySelector(".carousel-next");
+        const images = slide.querySelectorAll("img");
+        let index = 0;
+
+        // Update Carousel Position
+        function updateSlide() {
+            slide.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        // Next Button
+        nextButton.addEventListener("click", () => {
+            index = (index + 1) % images.length;
+            updateSlide();
+        });
+
+        // Previous Button
+        prevButton.addEventListener("click", () => {
+            index = (index - 1 + images.length) % images.length;
+            updateSlide();
+        });
+    });
+});
+

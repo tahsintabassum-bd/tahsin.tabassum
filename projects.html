@@ -143,24 +143,61 @@
             </div>
 
             <div class="journal">
+                <div class="journal-container">
+                    <!-- Carousel Section (Left Side) -->
+                    <div class="carousel-container">
+                        <div class="carousel-slide">
+                            <img src="assets/img/project4/c1.png" alt="Project Image 1">
+                            <img src="assets/img/project4/c2.png" alt="Project Image 2">
+                            <img src="assets/img/project4/c3.png" alt="Project Image 3">
+                            <img src="assets/img/project4/c4.png" alt="Project Image 4">
+                            <img src="assets/img/project4/CV5.png" alt="Project Image 5">
+                            <img src="assets/img/project4/CV7.png" alt="Project Image 6">
+                            <img src="assets/img/project4/CV8.png" alt="Project Image 7">
+                            <img src="assets/img/project4/CV10.jpg" alt="Project Image 8">
+                        </div>
+                        <!-- Navigation Arrows -->
+                        <button class="carousel-prev">&lt;</button>
+                        <button class="carousel-next">&gt;</button>
+                    </div>
+            
+                    <!-- Project Description Section (Right Side) -->
+                    <div class="project-details">
+                        <h2>Analyzing Factors Influencing Non-Motorist Crash Outcome in Oklahoma: A Macroscopic Analysis of Transportation Safety</h2>
+                        <p class="authors">
+                            Conducted as part of CEES 5020: Traffic Analysis, Design and Control and DSA 5103 Intelligent Data Analytics, Group Project 
+                        </p>
+                        <p class="description">
+                            In this project, a macroscopic analysis is conducted to identify risk factors influencing crash severity for non-motorists, such as pedestrians and cyclists, using crash data from 2015–2021 provided by the Oklahoma Highway Safety Office. The methodology integrates advanced data preprocessing, statistical model, machine learning models, and clustering to analyze relationships between crash severity and environmental, behavioral, and infrastructure-related variables. 
+                        </p>
+                        <p class="description">
+                            The data preprocessing refined the dataset by removing features with excessive missing values or low variance and simplifying categorical variables. Missing values were imputed (median for numerical, mode for categorical), and one-hot encoding was applied for machine learning compatibility. Numerical features were standardized with z-score normalization, and outliers were capped based on z-scores. To address class imbalance, SMOTE generated synthetic samples for underrepresented crash severity classes, enhancing predictive performance. 
+                        </p>
+                        <p class="description">
+                            Dimensionality reduction and clustering involved PCA to reduce the dataset to two principal components, capturing most of the variance and simplifying clustering. Using the Elbow Method, K-Means clustering identified five optimal clusters based on feature similarity. For enhanced visualization, t-SNE was applied, providing clear insights into distinct groupings and patterns within the data. Multinomial Logistic Regression model, Support Vector Machine (SVM), Artificial Neural Network (ANN), Random Forest (RF), and XGBoost were optimized using hyperparameter tuning and 5-fold cross-validation to enhance performance and reduce overfitting. A stacking ensemble method was implemented, combining predictions from these models into a meta-model, which improved multi-class classification accuracy by leveraging the strengths of individual models. 
+                        </p>
+                        <p class="description">
+                            The analysis identified five crash clusters: daytime crashes with minor injuries (Clusters 1 and 4), urban intersection crashes with dense traffic risks (Cluster 2), nighttime crashes under poor lighting leading to severe outcomes (Cluster 3), and hit-and-run crashes with varied severity (Cluster 5). The Random Forest model, the best-performing individual model, identified key predictors such as environmental factors such as weather, lighting, pedestrian behavior, type of road and intersection in influencing crash outcomes, offering valuable data to policymakers for targeted interventions in high-risk conditions like poor lighting, adverse weather, and risky pedestrian actions. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="journal">
                 <div class="journal-header">
-                    <h2>Analyzing Factors Influencing Non-Motorist Crash Outcome in Oklahoma: A Macroscopic Analysis of Transportation Safety</h2>
+                    <h2></h2>
                 </div>
                 <p class="authors">
-                    Conducted as part of CEES 5020: Traffic Analysis, Design and Control and DSA 5103 Intelligent Data Analytics, Group Project
+                    
                 </p>
                 <p class="authors">
-                    In this project, a macroscopic analysis is conducted to identify risk factors influencing crash severity for non-motorists, such as pedestrians and cyclists, using crash data from 2015–2021 provided by the Oklahoma Highway Safety Office. The methodology integrates advanced data preprocessing, statistical model, machine learning models, and clustering to analyze relationships between crash severity and environmental, behavioral, and infrastructure-related variables. 
-                </p>
+                                   </p>
                 <p class="authors">
-                    The data preprocessing refined the dataset by removing features with excessive missing values or low variance and simplifying categorical variables. Missing values were imputed (median for numerical, mode for categorical), and one-hot encoding was applied for machine learning compatibility. Numerical features were standardized with z-score normalization, and outliers were capped based on z-scores. To address class imbalance, SMOTE generated synthetic samples for underrepresented crash severity classes, enhancing predictive performance. 
-                </p>
+                                    </p>
                 <p class="authors">
-                    Dimensionality reduction and clustering involved PCA to reduce the dataset to two principal components, capturing most of the variance and simplifying clustering. Using the Elbow Method, K-Means clustering identified five optimal clusters based on feature similarity. For enhanced visualization, t-SNE was applied, providing clear insights into distinct groupings and patterns within the data. Multinomial Logistic Regression model, Support Vector Machine (SVM), Artificial Neural Network (ANN), Random Forest (RF), and XGBoost were optimized using hyperparameter tuning and 5-fold cross-validation to enhance performance and reduce overfitting. A stacking ensemble method was implemented, combining predictions from these models into a meta-model, which improved multi-class classification accuracy by leveraging the strengths of individual models. 
-                </p>
+                    
                 <p class="authors">
-                    The analysis identified five crash clusters: daytime crashes with minor injuries (Clusters 1 and 4), urban intersection crashes with dense traffic risks (Cluster 2), nighttime crashes under poor lighting leading to severe outcomes (Cluster 3), and hit-and-run crashes with varied severity (Cluster 5). The Random Forest model, the best-performing individual model, identified key predictors such as environmental factors such as weather, lighting, pedestrian behavior, type of road and intersection in influencing crash outcomes, offering valuable data to policymakers for targeted interventions in high-risk conditions like poor lighting, adverse weather, and risky pedestrian actions. 
-                </p>
+                    
                 <div class="social-links">
                     <a href="https://github.com/tahsintabassum-bd/Crash_Severity_ok" target="_blank">
                         <img src="assets/img/github.png" alt="GitHub" class="icon">

@@ -640,7 +640,8 @@ main {
     flex: 1; /* Take up 1 part of the space */
     position: relative;
     overflow: hidden;
-    max-width: 500px; /* Adjust width for the image container */
+    max-width: 512px; /* Adjust width for the image container */
+    height: 512px; /* Increase the height for larger images */
 }
 
 .carousel-slide {

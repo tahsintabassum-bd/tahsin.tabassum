@@ -679,7 +679,7 @@ main {
 }
 
 .slider {
-    width: 100%; /* Full width of the container */
+    width: 500px; /* Full width of the container */
     max-height: 600px; /* Optional: maximum container height */
     overflow: hidden; /* Prevent any overflow */
     display: flex;

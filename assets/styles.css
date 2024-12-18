@@ -711,6 +711,58 @@ main {
 }
 
 
+/* Carousel Container */
+.carousel {
+    position: relative;
+    width: 80%; /* Adjust width */
+    max-width: 800px; /* Optional: Maximum width */
+    margin: auto;
+    overflow: hidden; /* Hide overflowing content */
+    background-color: #f9f9f9;
+}
+
+/* Image Container */
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Smooth sliding effect */
+}
+
+/* Images */
+.carousel-container img {
+    width: 100%; /* Dynamic width */
+    max-height: 500px; /* Prevent overly tall images */
+    object-fit: contain; /* No cropping, fits container */
+    flex-shrink: 0; /* Prevent images from shrinking */
+}
+
+/* Navigation Buttons */
+.carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.carousel .prev {
+    left: 10px;
+}
+
+.carousel .next {
+    right: 10px;
+}
+
+/* Button Hover Effect */
+.carousel button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
 /* Link Styles */
 a {
     color: blue;

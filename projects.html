@@ -124,7 +124,7 @@
                     The data preprocessing refined the dataset by removing features with excessive missing values or low variance and simplifying categorical variables. Missing values were imputed (median for numerical, mode for categorical), and one-hot encoding was applied for machine learning compatibility. Numerical features were standardized with z-score normalization, and outliers were capped based on z-scores. To address class imbalance, SMOTE generated synthetic samples for underrepresented crash severity classes, enhancing predictive performance. 
                 </p>
                 <p class="authors">
-                    Dimensionality reduction and clustering involved PCA to reduce the dataset to two principal components, capturing most of the variance and simplifying clustering. Using the Elbow Method, K-Means clustering identified five optimal clusters based on feature similarity. For enhanced visualization, t-SNE was applied, providing clear insights into distinct groupings and patterns within the data. Multinomial logistic regression model, Support Vector Machine (SVM), Artificial Neural Network (ANN), Random Forest (RF), and XGBoost were optimized using hyperparameter tuning and 5-fold cross-validation to enhance performance and reduce overfitting. A stacking ensemble method was implemented, combining predictions from these models into a meta-model, which improved multi-class classification accuracy by leveraging the strengths of individual models. 
+                    Dimensionality reduction and clustering involved PCA to reduce the dataset to two principal components, capturing most of the variance and simplifying clustering. Using the Elbow Method, K-Means clustering identified five optimal clusters based on feature similarity. For enhanced visualization, t-SNE was applied, providing clear insights into distinct groupings and patterns within the data. Multinomial Logistic Regression model, Support Vector Machine (SVM), Artificial Neural Network (ANN), Random Forest (RF), and XGBoost were optimized using hyperparameter tuning and 5-fold cross-validation to enhance performance and reduce overfitting. A stacking ensemble method was implemented, combining predictions from these models into a meta-model, which improved multi-class classification accuracy by leveraging the strengths of individual models. 
                 </p>
                 <p class="authors">
                     The analysis identified five crash clusters: daytime crashes with minor injuries (Clusters 1 and 4), urban intersection crashes with dense traffic risks (Cluster 2), nighttime crashes under poor lighting leading to severe outcomes (Cluster 3), and hit-and-run crashes with varied severity (Cluster 5). The Random Forest model, the best-performing individual model, identified key predictors such as environmental factors such as weather, lighting, pedestrian behavior, type of road and intersection in influencing crash outcomes, offering valuable data to policymakers for targeted interventions in high-risk conditions like poor lighting, adverse weather, and risky pedestrian actions. 
@@ -149,6 +149,23 @@
             </div>
         
         </div>
+
+        <h1>Underaduate Thesis</h1>
+        <div class="journal-list">
+
+            <div class="journal">
+                <div class="journal-header">
+                    <h2>
+                        A Study on the Distribution of and Equity in Accessibility to Health Facilities in Dhaka (North and South) City Corporation, Bangladesh 
+                    </h2>
+                </div>
+                <p class="authors">
+                    This study examines the distribution and equity in accessibility of healthcare facilities in Dhaka city, focusing on the jurisdictions of Dhaka North City Corporation (DNCC) and Dhaka South City Corporation (DSCC). Using secondary data, the research applies the Location Quotient (LQ) method and the Kernel Density model in ArcGIS to analyze the concentration and distribution patterns of healthcare facilities, with data further represented through pivot tables and charts in Microsoft Excel and ArcGIS. The findings reveal significant disparities, as healthcare facilities are concentrated in specific wards like ward 1, 19, 27, and 32 of DNCC, and ward 35, 37, 50, and 51 of DSCC, while many others, such as ward 34, 43, and 44 of DNCC and wards 6, 7, and 34 of DSCC, lack even basic public and private healthcare infrastructure. The study further identifies an inverse relationship between the ratio of public and private facilities and the proportion of low- and high-income populations, with underserved areas often being poorly connected to wards with better facilities. These findings underscore the critical need for targeted urban planning and policy interventions to address healthcare accessibility gaps, contributing to the achievement of Sustainable Development Goals (SDGs) and improving equitable access to healthcare services across Dhaka.  
+                </p>
+            </div>
+        </div>
+
+        
     </main>
 
     <script src="assets/scripts.js"></script>

@@ -83,4 +83,29 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+const container = document.querySelector('.carousel-container');
+const prevBtn = document.querySelector('.prev');
+const nextBtn = document.querySelector('.next');
+
+let index = 0; // Current slide index
+
+// Move to the next slide
+nextBtn.addEventListener('click', () => {
+    const totalImages = document.querySelectorAll('.carousel-container img').length;
+    index = (index + 1) % totalImages; // Loop back to the first image
+    updateCarousel();
+});
+
+// Move to the previous slide
+prevBtn.addEventListener('click', () => {
+    const totalImages = document.querySelectorAll('.carousel-container img').length;
+    index = (index - 1 + totalImages) % totalImages; // Loop to the last image
+    updateCarousel();
+});
+
+// Update carousel position
+function updateCarousel() {
+    const offset = -index * 100; // Calculate slide offset
+    container.style.transform = `translateX(${offset}%)`;
+}
 
